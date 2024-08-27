@@ -16,8 +16,8 @@ python run.py
 
 ## demo
 - image
-<div style="float:left;"><img src="./images/SR1.jpg"  width = "480" height = "810" alt="SR1" align=center /></div>
-<div style="float:left;"><img src="./images/SR2.jpg"  width = "480" height = "810" alt="SR2" align=center /></div>
+<div style="float:left;"><img src="./images/SR1.jpg"  width = "320" height = "540" alt="SR1" align=center /></div>
+<div style="float:left;"><img src="./images/SR2.jpg"  width = "320" height = "540" alt="SR2" align=center /></div>
 - mp4
 
 ![video](./images/compared.mp4)
