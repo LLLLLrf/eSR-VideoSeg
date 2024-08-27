@@ -20,12 +20,8 @@ def v_concat():
     final_clip = CompositeVideoClip([vid_clip,
                                      txt_clip1.set_position(('center', height-50)).set_duration(clip1.duration),
                                      txt_clip2.set_position(('center', height*2-50)).set_duration(clip2.duration)])
-    # vid_clip = clips_array([[clip1], [clip2], [clip3]])
-    # final_clip = CompositeVideoClip([vid_clip,
-    #                                  txt_clip1.set_position(('center', height-50)).set_duration(clip1.duration),
-    #                                  txt_clip2.set_position(('center', height*2-50)).set_duration(clip2.duration),
-    #                                  txt_clip3.set_position(('center', height*3-50)).set_duration(clip3.duration)])
-    final_clip.resize(width=864*2).write_videofile("output/compared2.mp4")
+
+    final_clip.resize(width=864*2).write_videofile("output/compared.mp4")
 
 if __name__ == '__main__':
     v_concat()
