@@ -1,0 +1,6 @@
+7767517
+4 5
+Input                    in0                      0 1 in0
+Convolution              conv_0                   1 1 in0 1 0=12 1=3 11=3 12=1 13=1 14=1 2=1 3=1 4=1 5=0 6=108
+PixelShuffle             pixelshuffle_1           1 1 1 2 0=2 1=0
+Reduction                max_2                    1 2 2 out0 4 0=4 1=0 -23303=1,0 4=1 5=1
