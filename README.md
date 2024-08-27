@@ -1,7 +1,7 @@
 # Edge Device Realtime SuperResolution based on eSR
 
 ## Introduction
-This project is based on [eSR](https://github.com/pnavarre/eSR). Adding interface for RGB image and video input and output, support more image enhancement methods and estimation of the model's performance on both cpu and gpu.
+This project is based on [eSR](https://github.com/pnavarre/eSR). Added interface for RGB image and video input and output, support more image enhancement methods and estimation of the model's performance on both cpu and gpu.
 
 ## Run project
 1. Environment setup
@@ -18,6 +18,5 @@ python run.py
 - image
 
 <img src="./images/SR1.jpg"  width = "320" height = "540" alt="SR1" align=center /><img src="./images/SR2.jpg"  width = "320" height = "540" alt="SR2" align=center />
-- mp4
 
-[demo](./images/compared1.mp4)
+- mp4 [demo](./images/compared1.mp4)
