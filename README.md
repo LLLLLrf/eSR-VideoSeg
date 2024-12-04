@@ -16,7 +16,7 @@ python run.py
 
 ## demo
 
-- mp4 [demo](./images/compared1.mp4)
+- mp4 [demo](./images/compare1.mp4)
 
 - image
 
